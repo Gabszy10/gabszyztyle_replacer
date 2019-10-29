@@ -1,0 +1,23 @@
+.greetings {
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.greetings h1 {
+  font-family: "Quicksand", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 200;
+  line-height: 1.1;
+  color: #222222;
+  font-size: 2.8rem;
+}
+
+.greetings p {
+  font-family: "Quicksand", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  color: #222222;
+  font-size: 1.1rem;
+}

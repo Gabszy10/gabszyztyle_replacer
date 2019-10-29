@@ -1,0 +1,35 @@
+* {
+  font-family: "Montserrat";
+}
+
+.header {
+  background: #f69e8d;
+  padding: 0.3rem;
+}
+
+.header--inner {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.nav {
+  display: grid;
+  justify-self: end;
+  /* background: red; */
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.nav a {
+  margin: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: white;
+  font: "Montserrat";
+}
+
+.nav:last-child{
+    margin: 0 2rem;
+}

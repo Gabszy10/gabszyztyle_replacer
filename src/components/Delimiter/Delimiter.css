@@ -1,0 +1,96 @@
+button:hover {
+  cursor: pointer;
+  background: rgb(201, 190, 182);
+}
+
+.delimiter {
+  display: grid;
+  grid-template-columns: 45% 10% 45%;
+}
+
+.delimiter--title {
+  text-align: center;
+  font-family: "Quicksand", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 100;
+  line-height: 1.1;
+  color: #008cba;
+  font-size: 2rem;
+}
+
+textarea {
+  background: url(http://i.imgur.com/2cOaJ.png);
+  background-attachment: local;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  padding-top: 10px;
+  border-color: #ccc;
+  max-width: 100%;
+  white-space: pre;
+}
+
+.change--seperator {
+  padding: 0.8rem 3.7rem;
+  border: solid thin #ccc;
+  background: #e7e7e7;
+  margin: 5px 0;
+}
+
+.functions {
+  padding-top: 65px;
+  justify-self: center;
+  align-self: center;
+}
+
+.caret {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.caret-down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.caret-right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  border-color: #fff;
+  font-size: 1rem;
+}
+
+.caret-left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  border-color: #fff;
+  font-size: 1rem;
+}
+
+.marker {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.right {
+  padding: 0.7rem 4.1rem;
+  border: solid thin #ccc;
+  background: #008cba;
+  margin: 5px 0;
+}
+
+.left {
+  padding: 0.8rem 4rem;
+  border: solid thin #ccc;
+  background: #008cba;
+  margin: 5px 0;
+}
+
+.ekis {
+  padding: 0.8rem 3.6rem;
+  border: solid thin #ccc;
+  background: #f04124;
+  margin: 5px 0;
+}
