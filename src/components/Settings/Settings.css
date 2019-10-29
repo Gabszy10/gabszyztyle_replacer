@@ -1,0 +1,56 @@
+.settings {
+  max-width: 90%;
+  margin: auto;
+}
+
+.settings p {
+  font-family: "Quicksand", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  color: #008cba;
+  font-size: 1.1rem;
+  margin: auto;
+}
+
+.settings p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #008cba;
+}
+
+.settings--section {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  margin: 20px;
+}
+
+h6.label {
+  margin: 10px;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+h6.second {
+  font-style: italic;
+}
+
+.col {
+  background: red;
+  max-width: 200px;
+}
+
+.settings .left--side {
+  display: grid;
+  grid-template-columns: 35% 60%;
+}
+
+.left--side .toggle--button {
+  justify-self: flex-start;
+  align-self: center;
+}
+
+.toggle--button button{
+    background: #008cba;
+    padding: 1rem 2rem;
+}
